@@ -1,6 +1,47 @@
-button {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* CHỈNH CÁI NAV ĐẦU TIÊN*/
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.title h1 {
+    margin-top: 0px;
+    position: top;
+}
+.title img {
     max-width: 100px;
-    min-width: 50px;
-    background-color: aquamarine;
-    
+    height: auto;
+    margin: 10px;
+}
+header nav ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;   
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    background-color: #171D1C;
+}
+.nav-link a{
+    color: #EFE9F4;
+    height: 100%;
+}
+.nav-link a:visited{
+    color: #EFE9F4;
 }

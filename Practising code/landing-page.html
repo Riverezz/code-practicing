@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="landingPage.css" type="text/css">
 </head>
 <body>
-    <!--tHANH ĐIỀU HƯỚNG-->
+    <!--THANH ĐIỀU HƯỚNG-->
     <header id="header">
-        <img src="https://cdn.freebiesupply.com/logos/large/2x/panda-7-logo-png-transparent.png" width="10%" height="10%" title="Logo Trung tâm" id="header-img">    
+        <div class="title"> <img src="https://cdn.freebiesupply.com/logos/large/2x/panda-7-logo-png-transparent.png" title="Logo Trung tâm" id="header-img">
+        <h1>TIẾNG TRUNG PANDA</h1></div>
         <nav id="nav-bar">
             <ul>
                 <li class="nav-link"><a href="#benefits">LỢI ÍCH</a></li>
@@ -39,15 +40,15 @@
         </section>
         <section class="main-section" id="class-tour">
             <h2>Tham quan lớp học tại Tiếng Trung Panda</h2>
-           <iframe url="https://youtu.be/NVN82rBPPCU"></iframe>
+            <iframe id="video" width="659" height="371" src="https://www.youtube.com/embed/NVN82rBPPCU" title="Trung tâm tiếng Trung Sài Gòn Vina | Khóa học tiếng Trung giao tiếp, luyện thi HSK, XKLĐ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         </section>
         <section class="main-section" id="test">
             <h2>Kiểm tra trình độ tiếng Trung của bạn</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
                 <p>
-                    <input type="email" name="clientEmail" id="clientEmail" placeholder="Email của bạn">
-                    <button type="submit" id="submit">Submit</button>
+                    <input type="email" name="email" id="email" placeholder="Email của bạn">
+                    <input type="submit" id="submit" value="Gửi">
                 </p>
             </form>
         </section>
@@ -70,6 +71,7 @@
             </div>
         </section>
     </main>
+    <!--PHẦN CUỐI-->
     <footer>
         <div>
             <h4>Trung tâm Tiếng Trung Panda</h4>
