@@ -6,11 +6,13 @@
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
+
 }
 /* CHỈNH CÁI NAV ĐẦU TIÊN*/
 header {
     display: flex;
     justify-content: space-between;
+    max-height: 100px;
 
 }
 .title {
@@ -26,22 +28,34 @@ header {
     height: auto;
     margin: 10px;
 }
-header nav ul{
+#nav-bar {
+    max-width: 60%;
+}
+#nav-bar ul{
     height: 100%;
     width: 100%;
-    padding: 10px;
     display: flex;
     flex-flow: row wrap;   
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 0;
     list-style-type: none;
     background-color: #171D1C;
 }
-.nav-link a{
-    color: #EFE9F4;
+#nav-bar li {
     height: 100%;
 }
-.nav-link a:visited{
-    color: #EFE9F4;
+#nav-bar a {
+    height: 100%;
+    display: block;
+    padding: 40px 20px 40px 20px;
+    color: #F2E8D7;
+    text-decoration: none;
+    border-right: 2px solid #F2E8D7;
 }
+#nav-bar a:hover {
+    color:#171D1C;
+    background-color: #F2E8D7;
+}
+//@media chỉnh thanh điều hướng khi nó còn nửa màn hình thì hiển thị kiểu khác
+/*CHỈNH PHẦN MAIN*/
